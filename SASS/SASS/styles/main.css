@@ -5,10 +5,9 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -345,125 +344,14 @@ template {
   display: none;
 }
 
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  width: 1300px;
-}
-
-header {
-  width: 1300px;
+body {
+  font-family: "Dosis", sans-serif;
 }
 
 h3 {
-  font-family: "Marck Script", cursive;
-  font-weight: 400px;
-  font-size: 48px;
   color: #DB8D33;
-  line-height: 59.95px;
-}
-
-h2 {
-  font-family: "Montserrat", san-serif;
-  font-weight: 700px;
+  font-family: "Marck Script", cursive;
+  font-size: 48px;
   font-style: normal;
-  font-size: 60px;
-  text-transform: uppercase;
-  padding: 0;
-  margin: 0;
-}
-
-.star {
-  margin: 5px;
-}
-
-.photo1 {
-  width: 100%;
-  margin: 0;
-}
-
-.placeholder {
-  font-family: "Dosis", sans-serif;
-  font-size: 24px;
-  color: #575757;
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: #100A09;
-  padding: 0 40px 0 40px;
-}
-
-.navbar a {
-  font-family: "Montserrat", san-serif;
-  font-style: normal;
-  font-size: 18px;
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 20px 10px;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.navbar a.right {
-  float: right;
-  font-family: "Montserrat", san-serif;
-  font-style: normal;
-  font-size: 14px;
-  text-decoration: none;
-}
-
-#welcome {
-  text-decoration: underline;
-}
-
-section {
-  float: left;
-  width: 50%;
-  text-align: center;
-  margin: 60px 10px 60px 0;
-}
-
-h4 a {
-  font-family: adelle-sans,sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 15px;
-  text-transform: uppercase;
-  color: #C46312;
-}
-
-footer {
-  overflow: hidden;
-  background-color: #100A09;
-  width: 1300px;
-  padding: 10px 10px;
-  font-family: adelle-sans,sans-serif;
-  font-weight: 100;
-  font-style: normal;
-  font-size: 12px;
-  color: #ffffff;
-  float: left;
-  display: block;
-  text-align: center;
-}
-
-footer p.right {
-  float: right;
-  margin: 0px 205px 0px 0px;
-}
-
-footer p.left {
-  float: left;
-  margin: 0px 0px 0px 205px;
 }
 /*# sourceMappingURL=main.css.map */

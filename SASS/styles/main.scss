@@ -1,6 +1,77 @@
 @import './vendor/normalize';
+@import './partials/colors';
+@import './partials/mixins';
+@import './partials/typography';
+
+* { 
+    box-sizing: border-box;
+}
 
 
+.container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 1300px;
+}
+header {
+    width: 1300px;
+     }
+
+    
+h3{
+     
+     @include h3;
+      }
+
+h2 {
+      @include title;
+}
+
+.star{
+    margin: 5px;
+    }
+
+.photo1{
+        width: 100%;
+        margin: 0;
+    }  
+
+.placeholder {
+    font-family: $primary-font;
+    font-size: 24px;
+    color: $secondary-color;  
+}
+  .navbar {
+      @include nav;
+  } 
+  .navbar a {
+      @include nav-a;
+  } 
+  .navbar a.right {
+      @include nav-right;
+  }
+  #welcome{
+    text-decoration:underline;
+}
+section {
+    @include section
+}
+
+ h4 a {
+     @include links;
+ }  
+ 
+ footer {
+     @include footer;
+ }
+ footer p.right {
+    @include right
+}
+ 
+ footer p.left {
+    @include left
+}
 
 //Medium screens and up
 @media (min-width: 768px){
@@ -8,5 +79,5 @@
 }
 //Big screens
 @media (min-width: 1024px){
-    
+   
 }

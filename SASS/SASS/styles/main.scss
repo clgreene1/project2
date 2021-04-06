@@ -1,0 +1,22 @@
+@import './vendor/normalize';
+@import './partials/colors';
+@import './partials/mixins';
+@import './partials/typography';
+
+
+body {
+    font-family: $primary-font;
+}
+
+h3{
+    @include orange-heading
+}
+
+//Medium screens and up
+@media (min-width: 768px){
+
+}
+//Big screens
+@media (min-width: 1024px){
+    
+}

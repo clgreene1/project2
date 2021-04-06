@@ -1,0 +1,99 @@
+
+
+@mixin heading {
+    width: 650px;
+    height: 55px;
+    padding: 0;
+    margin: 0;
+}
+
+@mixin title {
+    font-family: $title-font;
+    font-weight: 700px;
+    font-style: normal;
+    font-size: 60px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+@mixin h3 {
+    font-family: $heading-font;
+    font-weight: 400px;
+    font-size: 48px;
+    color: $primary-color;
+    line-height: 59.95px;
+}
+@mixin h2 {
+    ont-family: $heading-font;
+    font-weight: 700px;
+    font-size: 48px;
+    color: $title-color;
+    line-height: 58.51px;
+    
+}
+
+@mixin nav {
+    
+    overflow: hidden;
+    background-color: #100A09;
+    padding: 0 40px 0 40px;
+}
+@mixin nav-a{
+    
+        font-family: $title-font;
+        
+        font-style: normal;
+        font-size: 18px;
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 20px 10px;
+        text-transform: uppercase; 
+        color: $banner-color;
+    }
+    @mixin nav-right {
+        float: right;
+    font-family: $title-font;
+    font-style: normal;
+    font-size: 14px;
+    text-decoration: none;
+    }
+    @mixin section {
+        float: left;
+    width: 50%;
+    text-align: center;
+    margin: 60px 10px 60px 0;
+    }
+
+
+@mixin links {
+    font-family: adelle-sans,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #C46312;
+}
+
+@mixin footer{
+    overflow: hidden;
+    background-color: #100A09;
+    width: 1300px;
+    padding: 10px 10px;  
+    font-family: adelle-sans,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 12px;
+    color: $banner-color;
+    float: left;
+    display: block;
+    text-align: center;  
+}
+@mixin right {
+    float: right;
+    margin: 0px 205px 0px 0px;
+}
+@mixin left {
+    float: left;
+    margin: 0px 0px 0px 205px;
+}
